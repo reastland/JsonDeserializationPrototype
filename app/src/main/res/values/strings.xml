@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Json Deserialization Prototype</string>
+    <string name="title_activity_gson">GsonActivity</string>
+    <string name="deserialize">Deserialize</string>
+    <string name="kotlin_results">Kotlin Results</string>
+    <string name="gson_results">GSON Results</string>
+</resources>
