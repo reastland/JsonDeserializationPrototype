@@ -22,6 +22,11 @@ import kotlin.coroutines.resume
 import kotlinx.serialization.*
 import okhttp3.OkHttpClient
 import retrofit2.converter.gson.GsonConverterFactory
+import android.R
+import android.content.Context
+import sun.jvm.hotspot.utilities.IntArray
+
+
 
 
 class MainActivity : AppCompatActivity() {
@@ -206,7 +211,7 @@ class MainActivity : AppCompatActivity() {
 
     companion object {
 //        const val statsApiUrl = "https://statsapi.mlb.com/"
-        const val statsApiUrl = "http://www.werun.club/"
+        const val statsApiUrl = "https://s3-us-west-1.amazonaws.com/com.randalleastland/"
         const val date = "09/29/2019"
         const val hydrate = "decisions,probablePitcher,person,stats,team,linescore(matchup,runners,positions),flags,game(content(media(epg),highlights(highlights),limit=5))"
         const val sportId = "1"
